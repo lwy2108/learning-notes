@@ -4,8 +4,10 @@ A collection (eventually) of my programming/computing-related notes for future r
 Please feel free to suggest changes, improvements or new topics.
 
 ## Existing structure
+```
 ./python:
 pandas.md
+```
 
 ## Planned structure
 ```
