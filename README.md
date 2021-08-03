@@ -8,11 +8,14 @@ Please feel free to suggest changes, improvements or new topics.
 pandas.md
 
 ## Planned structure
+```
 python
 
   autbor
   
   cschafer
+  
+  ...
   
   topical
   
@@ -29,11 +32,10 @@ python
     pandas
     
     ...
-    
-  ...
   
 full stack
 
   0setup
   
   ...
+```
