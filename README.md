@@ -9,17 +9,31 @@ pandas.md
 
 ## Planned structure
 python
+
   autbor
+  
   cschafer
+  
   topical
+  
     ...
+    
     dictionaries
+    
     ...
+    
   library-specific
+  
     ...
+    
     pandas
+    
     ...
+    
   ...
+  
 full stack
+
   0setup
+  
   ...
