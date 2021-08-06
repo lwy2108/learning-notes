@@ -4,14 +4,14 @@ With Python in Jupyter Notebook
 
 Referenced from [Corey Schafer's Pandas Tutorials (Youtube Playlist)](https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS), [pandas-docs/API reference](https://pandas.pydata.org/docs/reference/index.html#api)
 
-# Import library
+## Import library
 
 ```py
 # by convention
 import pandas as pd
 ```
 
-# Read data file into dataframe
+## Read data file into dataframe
 
 ```py
 # read .csv file (Comma Separated Values)
@@ -28,7 +28,7 @@ df
 # read in multiple dataframes to different variables, e.g. df_schema, ...
 ```
 
-# Dataframes
+## Dataframes
 
 ```py
 # a dataframe can be thought of simply as a table, consisting of rows,
@@ -52,7 +52,7 @@ df.head()
 df.head(3)
 ```
 
-# Display settings
+## Display settings
 
 ```py
 # increase the columns displayed for wider dataframes
@@ -67,7 +67,7 @@ pd.set_option('display.max_rows', rows_displayed)
 # these settings prevent the truncation of dataframes when printed
 ```
 
-# Accessing specific data
+## Accessing specific data
 
 ```py
 # ...
