@@ -55,6 +55,30 @@ resources.</p>
     <li>Second</li>
 </ol>
 <!--Ordered (numbered) list-->
+
+<form action="server-url-for-submission">
+    <input type="text" placeholder="empty" required>
+    <!--Text field for user input (self-closing)-->
+    <!--Optionally, a placeholder text can be set for before any input-->
+    <!--The required attribute is optional-->
+    <button type="submit">Go</button>
+    <!--This element sends data to the server specified by action-->
+    <label for="indoor">
+        <input id="indoor" type="radio" name="indoor-outdoor">Indoor
+    </label>
+    <!--Below is the preferred way, but both will have the same result-->
+    <input id="outdoor" type="radio" name="indoor-outdoor">
+    <label for="outdoor">Outdoor</label>
+    <!--Nesting radio buttons in individual labels allows the user to
+    click on the text to select the button by associating them-->
+    <!--Related radio buttons should have an identical name attribute
+    so that selecting one will deselect the other-->
+    <!--Best practice: set a for attribute on the label element that
+    matches the id of the input element, allowing assistive technologies
+    to work-->
+</form>
+<!--With action, a web form can be made to submit input data to a server
+with only pure HTML-->
 ```
 
 ## Tags
@@ -92,5 +116,3 @@ The ```href``` attribute (with destination) and anchor text (which is displayed 
 The ```id``` attribute should uniquely describe the target element
 
 The ```a``` element can be nested within other elements
-
-
